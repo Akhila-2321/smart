@@ -43,6 +43,7 @@ function StudentDashboard() {
   // Load complaints on mount
   useEffect(() => {
     loadComplaints();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
